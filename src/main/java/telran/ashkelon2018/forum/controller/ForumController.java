@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import telran.ashkelon2018.forum.domain.Post;
@@ -19,6 +20,8 @@ import telran.ashkelon2018.forum.dto.PostUpdateDto;
 import telran.ashkelon2018.forum.service.ForumService;
 
 @RestController
+@RequestMapping("/forum")
+
 public class ForumController {
 	@Autowired
 	ForumService service;

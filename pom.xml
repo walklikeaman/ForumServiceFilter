@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>telran.ashkelon2018</groupId>
-	<artifactId>ForumService</artifactId>
+	<artifactId>ForumServiceFilter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>ForumService</name>
+	<name>ForumServiceFilter</name>
 	<description>forum restfulservice in MongoDB Spring Data</description>
 
 	<properties>
@@ -39,6 +39,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mindrot/jbcrypt -->
+<dependency>
+    <groupId>org.mindrot</groupId>
+    <artifactId>jbcrypt</artifactId>
+    <version>0.4</version>
+</dependency>
+
+		
 	</dependencies>
 
 	<build>
